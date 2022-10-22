@@ -24,6 +24,7 @@ body{
     margin: auto;
 }
 
+
 .box1{
     width: 40%;
     text-align: left;
@@ -35,7 +36,6 @@ body{
     text-align: left;
     display: inline-block;
 }
-
 
 .box3{
     width: 40%;
@@ -54,10 +54,18 @@ body{
     width: 40%;
     text-align: left;
     display: inline-block;
+    
 }
 
 .box6{
-    color: black;
+    background-color: wheat;
+    width: 40%;
+    text-align: left;
+    display: inline-block;
+}
+
+.btn{
+    background-color: wheat;
     width: 40%;
     text-align: left;
     display: inline-block;

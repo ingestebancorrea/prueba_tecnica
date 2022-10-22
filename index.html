@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="main_container">
-        <form action="usuario.php" method="POST" id="form ">
+        <form action="usuario.php" method="POST" id="form">
                 <h1> Registro Usuario</h1>
                 <div class="box1">
                     <label for=" ">Cedula Usuario</label>
@@ -32,7 +32,6 @@
                 <div class="box4">
                      <label for=" ">Correo Usuario</label>
                     <input type="number" name="edad" id="name" required> <span clase="barra "></span>
-                   
                 </div>
     
                 <div class="box5">
@@ -42,14 +41,17 @@
                 </div><br><br>
     
                 <div class="box6">
-                    <label for=" ">Comentarios usuario</label>
-                    <input type="text" name="curso" id="name" required> <span clase="barra "></span>
+                    <input type="text" name="curso" id="name" required placeholder="Comentario Usuario" style="height: 100px;
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 10px 20px;
+                    margin: 5px 0;
+                    border: 3px solid #0c181c;
+                    border-radius: 10px;"> 
                 </div><br><br>
                 
                 <button type="submit" class="boton"> Registrar </button>
                 <a href="index.html"> </a>
-            </div>
-    
         </form>
     </div>
 </body>
