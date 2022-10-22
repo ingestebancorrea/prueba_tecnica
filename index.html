@@ -54,5 +54,16 @@
                 <a href="index.html"> </a>
         </form>
     </div>
+    <Script type="text/javascript">
+        function valida(f) {
+            var ok = true;
+            var msg = "Debes escribir contenido en los campos:\n";
+            if(f.elements[0].value == "")
+            {
+              msg += "- Marca 1\n";
+              ok = false;
+            } 
+        }         
+    </Script>
 </body>
 </html>
