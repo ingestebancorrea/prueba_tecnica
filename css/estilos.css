@@ -53,6 +53,13 @@ body{
     display: inline-block;
 }
 
+.box6{
+    color: black;
+    width: 40%;
+    text-align: left;
+    display: inline-block;
+}
+
 .box1 input{
     height: 35px;
     width: 50%;
@@ -94,8 +101,8 @@ body{
 }
 
 .box5 select{
-    height: 35px;
-    width: 50%;
+    height: 40px;
+    width: 60%;
     box-sizing: border-box;
     padding: 10px 20px;
     margin: 5px 0;
