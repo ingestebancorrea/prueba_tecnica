@@ -7,8 +7,11 @@ body{
     background: linear-gradient(to top, red 10%, purple 45%, blue 85%);
     margin: 0;
     height: 100vh; 
+    font-family: roboto;
+    font-size: 18px;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
 
 .main_container{
     display: flex;
@@ -103,6 +106,16 @@ body{
 .box5 select{
     height: 40px;
     width: 60%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: 3px solid #0c181c;
+    border-radius: 10px;
+}
+
+.box6 input{
+    height: 35px;
+    width: 50%;
     box-sizing: border-box;
     padding: 10px 20px;
     margin: 5px 0;
